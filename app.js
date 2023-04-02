@@ -56,11 +56,11 @@ const instructors = [
 
 const fe = instructors.map(function(e){
 if( e.availability === 'all'){
-return Hi ${e.name}, we inform you that this weekend you will be doing the support class<br>;
+return Hi `${e.name}, we inform you that this weekend you will be doing the support class`;
 }else if( e.availability == 'weekend'){
-return Hi ${e.name}, we inform you that this weekend you will be doing the support class<br>;
+return Hi `${e.name}, we inform you that this weekend you will be doing the support class`;
 }else if(e.specialities.includes['Python']){
-return ${e.name} <br>bon weekend<br>;
+return `${e.name} Hi nameOfInstructor, we inform you that this weekend you will be doing the support class and you need to prepare a Python workshop`;
 };
 });
 
